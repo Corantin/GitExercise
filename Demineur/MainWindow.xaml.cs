@@ -27,5 +27,10 @@ namespace Demineur
             FenetreChampMines fenetreJeu = new FenetreChampMines(5, 5, 4);
             gridPrincipale.Children.Add(fenetreJeu);
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show("Test");
+        }
     }
 }

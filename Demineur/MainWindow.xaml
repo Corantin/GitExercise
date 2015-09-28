@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid Name="gridPrincipale">
-    
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="220,114,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+
     </Grid>
 </Window>
